@@ -10,7 +10,7 @@ pipeline {
         stage('Preparar Ambiente') {
             steps {
                 sh '''
-                    apt-get update && apt-get install -y \
+                    sudo apt-get update && apt-get install -y \
                         curl wget gnupg python3 python3-pip \
                         nodejs npm libnss3 libatk-bridge2.0-0 libgtk-3-0 \
                         libxss1 libasound2 libxshmfence1 libgbm1 \
