@@ -9,17 +9,20 @@ pipeline {
     stages {
         stage('Preparar Ambiente') {
             steps {
-                sh '''
-                    sudo apt-get update && apt-get install -y \
-                        curl wget gnupg python3 python3-pip \
-                        nodejs npm libnss3 libatk-bridge2.0-0 libgtk-3-0 \
-                        libxss1 libasound2 libxshmfence1 libgbm1 \
-                        libxcomposite1 libxrandr2 libpangocairo-1.0-0 libpangoft2-1.0-0
+                withCredentials([usernamePassword(credentialsId: 'sudo-creds', usernameVariable: 'SUDO_USER', passwordVariable: 'SUDO_PASS')]) {
+                    sh '''
+                        echo "$SUDO_PASS" | sudo -S apt-get update
+                        echo "$SUDO_PASS" | sudo -S apt-get install -y \
+                            curl wget gnupg python3 python3-pip \
+                            nodejs npm libnss3 libatk-bridge2.0-0 libgtk-3-0 \
+                            libxss1 libasound2 libxshmfence1 libgbm1 \
+                            libxcomposite1 libxrandr2 libpangocairo-1.0-0 libpangoft2-1.0-0
 
-                    pip3 install --upgrade pip
-                    pip3 install robotframework robotframework-browser
-                    rfbrowser init
-                '''
+                        pip3 install --upgrade pip
+                        pip3 install robotframework robotframework-browser
+                        rfbrowser init
+                    '''
+                }
             }
         }
 
