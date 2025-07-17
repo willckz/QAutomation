@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Preparar Ambiente') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'sudo-creds', usernameVariable: 'SUDO_USER', passwordVariable: 'SUDO_PASS')]) {
+                withCredentials([usernamePassword(credentialsId: 'sudo-creds', usernameVariable: 'root', passwordVariable: 'Sw0rdf1shNh00pwpxpc@')]) {
                     sh '''
                         echo "$SUDO_PASS" | sudo -S apt-get update
                         echo "$SUDO_PASS" | sudo -S apt-get install -y \
