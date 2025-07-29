@@ -1,0 +1,36 @@
+{"level":30,"time":"2025-07-28T14:57:30.948Z","pid":2548,"hostname":"AGRONTB0263","msg":"Listening on 127.0.0.1:62447"}
+(node:2548) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-07-28T14:57:31.599Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-07-28T14:57:33.125Z","pid":2548,"hostname":"AGRONTB0263","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-07-28T14:57:33.127Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-07-28T14:57:33.126Z","pid":2548,"hostname":"AGRONTB0263","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-07-28T14:57:33.139Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-07-28T14:57:33.139Z","pid":2548,"hostname":"AGRONTB0263","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2025-07-28T14:57:33.140Z","pid":2548,"hostname":"AGRONTB0263","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-28T14:57:33.140Z","pid":2548,"hostname":"AGRONTB0263","msg":"Trace file: "}
+{"level":30,"time":"2025-07-28T14:57:33.159Z","pid":2548,"hostname":"AGRONTB0263","msg":"Changed active context"}
+{"level":30,"time":"2025-07-28T14:57:33.159Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method newContext"}
+{"level":30,"time":"2025-07-28T14:57:33.166Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-07-28T14:57:33.167Z","pid":2548,"hostname":"AGRONTB0263","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-07-28T14:57:33.414Z","pid":2548,"hostname":"AGRONTB0263","msg":"Video path: undefined"}
+{"level":30,"time":"2025-07-28T14:57:33.415Z","pid":2548,"hostname":"AGRONTB0263","msg":"Changed active page"}
+{"level":30,"time":"2025-07-28T14:57:34.174Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method newPage"}
+{"level":30,"time":"2025-07-28T14:57:34.183Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.187Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.190Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.202Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.206Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.214Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.218Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.220Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.222Z","pid":2548,"hostname":"AGRONTB0263","msg":"Changed active context"}
+{"level":30,"time":"2025-07-28T14:57:34.222Z","pid":2548,"hostname":"AGRONTB0263","msg":"Changing current active page: page=79d25126-b046-4228-959c-3bbd671f669d"}
+{"level":30,"time":"2025-07-28T14:57:34.222Z","pid":2548,"hostname":"AGRONTB0263","msg":"Changed active page"}
+{"level":30,"time":"2025-07-28T14:57:34.224Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-07-28T14:57:34.240Z","pid":2548,"hostname":"AGRONTB0263","msg":"Removed page=ab3eab9d-3fc3-40d7-99b6-038b6ef3c9aa from context=9666f9c7-c908-43f3-9f43-60839d624a0a page stack"}
+{"level":30,"time":"2025-07-28T14:57:34.275Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-07-28T14:57:34.287Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.287Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-28T14:57:34.549Z","pid":2548,"hostname":"AGRONTB0263","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-28T14:57:34.705Z","pid":2548,"hostname":"AGRONTB0263","msg":"End of node method closeAllBrowsers"}

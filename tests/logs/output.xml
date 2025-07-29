@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2025-07-28T11:57:22.392928" rpa="false" schemaversion="5">
+<suite id="s1" name="Erp-Front" source="C:\QAutomation\tests\erp-front.robot">
+<test id="s1-t1" name="Login Plataforma" line="6">
+<kw name="Abrir a Plataforma" owner="erp-front">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-07-28T11:57:23.714826" level="INFO">{"browser": "chromium", "headless": false, "args": ["-start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAutomation\\tests\\logs\\browser\\traces\\temp\\34fb3e7f-7e81-4c98-ac55-83e5ba8757f7"}</msg>
+<msg time="2025-07-28T11:57:23.815897" level="INFO">Starting Browser process C:\Users\rubson.nascimento\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:62447</msg>
+<msg time="2025-07-28T11:57:33.131389" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["-start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\QAutomation\\tests\\logs\\browser\\traces\\temp\\34fb3e7f-7e81-4c98-ac55-83e5ba8757f7"}</msg>
+<arg>browser=${BROWSER}</arg>
+<arg>headless=${HEADLESS}</arg>
+<arg>args=["-start-maximized"]</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-07-28T11:57:23.714826" elapsed="9.416563"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-07-28T11:57:33.135445" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2025-07-28T11:57:33.160307" level="INFO">Successfully created context. </msg>
+<msg time="2025-07-28T11:57:33.160307" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=${None}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-07-28T11:57:33.132383" elapsed="0.027924"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-07-28T11:57:34.175598" level="INFO">Successfully initialized new page object and opened url: https://qa-testeerp.agrotis.io</msg>
+<arg>${URL_PLATAFORMA}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-07-28T11:57:33.160307" elapsed="1.015291"/>
+</kw>
+<status status="PASS" start="2025-07-28T11:57:23.712820" elapsed="10.463090"/>
+</kw>
+<status status="PASS" start="2025-07-28T11:57:23.710814" elapsed="10.465096"/>
+</test>
+<status status="PASS" start="2025-07-28T11:57:22.392928" elapsed="11.884682"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Erp-Front">Erp-Front</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
